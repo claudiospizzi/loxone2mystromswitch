@@ -1,0 +1,29 @@
+{
+  "name": "loxone2mystromswitch",
+  "version": "0.0.0",
+  "description": "Loxone extension to integrate MyStrom Switch devices.",
+  "keywords": [
+    "smarthome",
+    "loxone",
+    "mystrom",
+    "switch",
+    "mqtt",
+    "influxdb"
+  ],
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "Claudio Spizzi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node-fetch": "^2.5.8"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "influx": "^5.7.0",
+    "mqtt": "^4.2.6",
+    "node-fetch": "^2.6.1",
+    "tslog": "^3.1.1"
+  }
+}
