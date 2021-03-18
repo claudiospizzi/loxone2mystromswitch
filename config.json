@@ -1,0 +1,33 @@
+{
+    "loxone": {
+        "host": "192.168.1.20",
+        "virtualInputPort": 3000,
+        "virtualOutputPort": 80
+    },
+    "myStromSwitch": {
+        "intervalSec": 10,
+        "devices": [
+            {
+                "name": "kitchen-device",
+                "room": "Kitchen",
+                "description": "",
+                "address": "192.168.1.50"
+            },
+            {
+                "name": "tv-light",
+                "room": "Living Room",
+                "description": "",
+                "address": "192.168.1.51"
+            }
+        ]
+    },
+    "mqtt": {
+        "enabled": true,
+        "host": "192.168.1.30"
+    },
+    "influx": {
+        "enabled": true,
+        "host": "192.168.1.40",
+        "database": "smarthome"
+    }
+}
