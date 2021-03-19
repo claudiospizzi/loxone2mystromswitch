@@ -57,7 +57,7 @@ export abstract class SmartHomeDevice extends EventEmitter {
   public name: string;
 
   /**
-   * Location within the smart home of the device.
+   * Location or room of the device within the smart home.
    */
   public location: string;
 

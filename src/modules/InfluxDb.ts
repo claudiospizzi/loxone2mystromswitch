@@ -72,7 +72,7 @@ export class InfluxDb extends SmartHomeDevice {
    * Write a InfluxDB measurement.
    * @param device The smart home device.
    * @param measurement The InfluxDB measurement.
-   * @param field The value field.
+   * @param field The value field name.
    * @param value The value itself.
    */
   writeMeasurement(device: SmartHomeDevice, measurement: string, field: string, value: string) {
